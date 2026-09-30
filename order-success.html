@@ -1,0 +1,4 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>تم الطلب | Atelier Noura</title><link rel="stylesheet" href="css/style.css"></head>
+<body><main class="success"><div class="success-card"><div class="success-icon">✓</div><p class="eyebrow">THANK YOU</p><h1>تم استلام طلبك</h1><p>رقم الطلب: <strong id="orderNumber"></strong></p><p>هذه النسخة التجريبية تحفظ الطلب محليًا. في المرحلة التالية سنربطها بـ Supabase ليصل الطلب فعليًا إلى لوحة المسؤول.</p><a class="btn" href="index.html">العودة للمتجر</a></div></main>
+<script>document.getElementById('orderNumber').textContent=localStorage.getItem('lastOrderNumber')||'—';</script></body></html>
